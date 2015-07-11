@@ -61,7 +61,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(3333);
+var port = 3333;
+app.listen(port);
 
+console.log('Listening on port -->', port);
 
 module.exports = app;
