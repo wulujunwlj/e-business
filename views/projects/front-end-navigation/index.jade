@@ -2,4 +2,15 @@ extends layout
 
 block content
 	h1 index
-	p #{username}
+	p #{title}
+	//- pre #{list}
+
+	div
+		- each obj in list
+			ul=obj
+				- each item in obj
+					li= item.name
+
+	//- include footer.jade
+	//- http://www.html-js.com/article/column/809
+	//- http://segmentfault.com/a/1190000000357534#articleHeader18

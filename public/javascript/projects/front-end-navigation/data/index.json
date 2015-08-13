@@ -33,6 +33,14 @@
 				"front-end",
 				"html-js"
 			]
+		}, {
+			"name": "前端博客",
+			"url": "http://qianduanblog.com/",
+			"keywords": [
+				"front-end",
+				"JS",
+				"CSS"
+			]
 		}
 	],
 	"JS": [
