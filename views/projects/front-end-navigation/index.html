@@ -6,6 +6,29 @@
 </head>
 
 <body>
-	
+	<button type="button" class="clickBtn">1111111</button>
+	<script src="vendor/jquery/jquery.js"></script>
+	<script>
+	$(document).ready(function() {
+
+		$('.clickBtn').on('click', function() {
+			$.ajax({
+				url: '/frontendNav/aaa',
+				type: 'GET',
+			})
+			.done(function() {
+				console.log("success");
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+			});
+			
+		})
+		
+	});
+	</script>
 </body>
 </html>

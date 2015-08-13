@@ -18,7 +18,10 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 
 app.engine('.html', ejs.__express);
-app.set('view engine', 'html');
+
+// 'view engine':设置模板引擎
+// app.set('view engine', 'html');
+app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 app.use(favicon(__dirname + '/public/amazon.ico'));
