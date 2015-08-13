@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var music = require('./routes/projects/music.163.com.js');
+var music163 = require('./routes/projects/music.163.com.js');
+var frontendNav = require('./routes/projects/front.end.navigation.js');
 
 var ejs = require('ejs');
 
@@ -30,7 +31,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/music', music);
+app.use('/music163', music163);
+app.use('/frontendNav', frontendNav);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
