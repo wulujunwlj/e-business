@@ -29,3 +29,9 @@ ul.list-unstyled {
 	width: 1200px;
 	margin: 0 auto;
 }
+.text-2x {
+	font-size: 2em;
+}
+.text-1x_5 {
+	font-size: 1.5em;
+}

@@ -4,7 +4,8 @@ block content
 	div.main
 		- each value, key in list
 			div.block-title
-				a(href="#")= key
+				a(href="#").text-1x_5= key
+				i.fa.fa-angle-up.f-r.text-1x_5
 			//- hr.split-line
 			ul.block-content.list-unstyled
 				- each item in value

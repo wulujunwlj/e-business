@@ -1,0 +1,2885 @@
+extends layout
+
+block content
+  div
+    section#web-application.mainParts
+      h2.page-header 网页
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-adjust
+            |  adjust
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-anchor
+            |  anchor
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-archive
+            |  archive
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-area-chart
+            |  area-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows
+            |  arrows
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-h
+            |  arrows-h
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-v
+            |  arrows-v
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-asterisk
+            |  asterisk
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-at
+            |  at
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-automobile
+            |  automobile 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ban
+            |  ban
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bank
+            |  bank 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bar-chart
+            |  bar-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bar-chart-o
+            |  bar-chart-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-barcode
+            |  barcode
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bars
+            |  bars
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bed
+            |  bed
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-beer
+            |  beer
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bell
+            |  bell
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bell-o
+            |  bell-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bell-slash
+            |  bell-slash
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bell-slash-o
+            |  bell-slash-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bicycle
+            |  bicycle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-binoculars
+            |  binoculars
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-birthday-cake
+            |  birthday-cake
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bolt
+            |  bolt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bomb
+            |  bomb
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-book
+            |  book
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bookmark
+            |  bookmark
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bookmark-o
+            |  bookmark-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-briefcase
+            |  briefcase
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bug
+            |  bug
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-building
+            |  building
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-building-o
+            |  building-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bullhorn
+            |  bullhorn
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bullseye
+            |  bullseye
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bus
+            |  bus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cab
+            |  cab 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-calculator
+            |  calculator
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-calendar
+            |  calendar
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-calendar-o
+            |  calendar-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-camera
+            |  camera
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-camera-retro
+            |  camera-retro
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-car
+            |  car
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-down
+            |  caret-square-o-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-left
+            |  caret-square-o-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-right
+            |  caret-square-o-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-up
+            |  caret-square-o-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cart-arrow-down
+            |  cart-arrow-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cart-plus
+            |  cart-plus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc
+            |  cc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-certificate
+            |  certificate
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check
+            |  check
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-circle
+            |  check-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-circle-o
+            |  check-circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-square
+            |  check-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-square-o
+            |  check-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-child
+            |  child
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle
+            |  circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-o
+            |  circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-o-notch
+            |  circle-o-notch
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-thin
+            |  circle-thin
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-clock-o
+            |  clock-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-close
+            |  close 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cloud
+            |  cloud
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cloud-download
+            |  cloud-download
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cloud-upload
+            |  cloud-upload
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-code
+            |  code
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-code-fork
+            |  code-fork
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-coffee
+            |  coffee
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cog
+            |  cog
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cogs
+            |  cogs
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-comment
+            |  comment
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-comment-o
+            |  comment-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-comments
+            |  comments
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-comments-o
+            |  comments-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-compass
+            |  compass
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-copyright
+            |  copyright
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-credit-card
+            |  credit-card
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-crop
+            |  crop
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-crosshairs
+            |  crosshairs
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cube
+            |  cube
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cubes
+            |  cubes
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cutlery
+            |  cutlery
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dashboard
+            |  dashboard 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-database
+            |  database
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-desktop
+            |  desktop
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-diamond
+            |  diamond
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dot-circle-o
+            |  dot-circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-download
+            |  download
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-edit
+            |  edit 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ellipsis-h
+            |  ellipsis-h
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ellipsis-v
+            |  ellipsis-v
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-envelope
+            |  envelope
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-envelope-o
+            |  envelope-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-envelope-square
+            |  envelope-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eraser
+            |  eraser
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-exchange
+            |  exchange
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-exclamation
+            |  exclamation
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-exclamation-circle
+            |  exclamation-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-exclamation-triangle
+            |  exclamation-triangle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-external-link
+            |  external-link
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-external-link-square
+            |  external-link-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eye
+            |  eye
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eye-slash
+            |  eye-slash
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eyedropper
+            |  eyedropper
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fax
+            |  fax
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-female
+            |  female
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fighter-jet
+            |  fighter-jet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-archive-o
+            |  file-archive-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-audio-o
+            |  file-audio-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-code-o
+            |  file-code-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-excel-o
+            |  file-excel-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-image-o
+            |  file-image-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-movie-o
+            |  file-movie-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-pdf-o
+            |  file-pdf-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-photo-o
+            |  file-photo-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-picture-o
+            |  file-picture-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-powerpoint-o
+            |  file-powerpoint-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-sound-o
+            |  file-sound-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-video-o
+            |  file-video-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-word-o
+            |  file-word-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-zip-o
+            |  file-zip-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-film
+            |  film
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-filter
+            |  filter
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fire
+            |  fire
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fire-extinguisher
+            |  fire-extinguisher
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flag
+            |  flag
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flag-checkered
+            |  flag-checkered
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flag-o
+            |  flag-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flash
+            |  flash 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flask
+            |  flask
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-folder
+            |  folder
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-folder-o
+            |  folder-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-folder-open
+            |  folder-open
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-folder-open-o
+            |  folder-open-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-frown-o
+            |  frown-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-futbol-o
+            |  futbol-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gamepad
+            |  gamepad
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gavel
+            |  gavel
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gear
+            |  gear 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gears
+            |  gears 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-genderless
+            |  genderless 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gift
+            |  gift
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-glass
+            |  glass
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-globe
+            |  globe
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-graduation-cap
+            |  graduation-cap
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-group
+            |  group 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hdd-o
+            |  hdd-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-headphones
+            |  headphones
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heart
+            |  heart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heart-o
+            |  heart-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heartbeat
+            |  heartbeat
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-history
+            |  history
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-home
+            |  home
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hotel
+            |  hotel 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-image
+            |  image 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-inbox
+            |  inbox
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-info
+            |  info
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-info-circle
+            |  info-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-institution
+            |  institution 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-key
+            |  key
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-keyboard-o
+            |  keyboard-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-language
+            |  language
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-laptop
+            |  laptop
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-leaf
+            |  leaf
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-legal
+            |  legal 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-lemon-o
+            |  lemon-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-level-down
+            |  level-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-level-up
+            |  level-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-life-bouy
+            |  life-bouy 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-life-buoy
+            |  life-buoy 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-life-ring
+            |  life-ring
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-life-saver
+            |  life-saver 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-lightbulb-o
+            |  lightbulb-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-line-chart
+            |  line-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-location-arrow
+            |  location-arrow
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-lock
+            |  lock
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-magic
+            |  magic
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-magnet
+            |  magnet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mail-forward
+            |  mail-forward 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mail-reply
+            |  mail-reply 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mail-reply-all
+            |  mail-reply-all 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-male
+            |  male
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-map-marker
+            |  map-marker
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-meh-o
+            |  meh-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-microphone
+            |  microphone
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-microphone-slash
+            |  microphone-slash
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus
+            |  minus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus-circle
+            |  minus-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus-square
+            |  minus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus-square-o
+            |  minus-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mobile
+            |  mobile
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mobile-phone
+            |  mobile-phone 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-money
+            |  money
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-moon-o
+            |  moon-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mortar-board
+            |  mortar-board 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-motorcycle
+            |  motorcycle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-music
+            |  music
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-navicon
+            |  navicon 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-newspaper-o
+            |  newspaper-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paint-brush
+            |  paint-brush
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paper-plane
+            |  paper-plane
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paper-plane-o
+            |  paper-plane-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paw
+            |  paw
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pencil
+            |  pencil
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pencil-square
+            |  pencil-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pencil-square-o
+            |  pencil-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-phone
+            |  phone
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-phone-square
+            |  phone-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-photo
+            |  photo 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-picture-o
+            |  picture-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pie-chart
+            |  pie-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plane
+            |  plane
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plug
+            |  plug
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus
+            |  plus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-circle
+            |  plus-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-square
+            |  plus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-square-o
+            |  plus-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-power-off
+            |  power-off
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-print
+            |  print
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-puzzle-piece
+            |  puzzle-piece
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-qrcode
+            |  qrcode
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-question
+            |  question
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-question-circle
+            |  question-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-quote-left
+            |  quote-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-quote-right
+            |  quote-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-random
+            |  random
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-recycle
+            |  recycle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-refresh
+            |  refresh
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-remove
+            |  remove 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-reorder
+            |  reorder 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-reply
+            |  reply
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-reply-all
+            |  reply-all
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-retweet
+            |  retweet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-road
+            |  road
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rocket
+            |  rocket
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rss
+            |  rss
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rss-square
+            |  rss-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-search
+            |  search
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-search-minus
+            |  search-minus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-search-plus
+            |  search-plus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-send
+            |  send 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-send-o
+            |  send-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-server
+            |  server
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share
+            |  share
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-alt
+            |  share-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-alt-square
+            |  share-alt-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-square
+            |  share-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-square-o
+            |  share-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-shield
+            |  shield
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ship
+            |  ship
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-shopping-cart
+            |  shopping-cart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sign-in
+            |  sign-in
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sign-out
+            |  sign-out
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-signal
+            |  signal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sitemap
+            |  sitemap
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sliders
+            |  sliders
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-smile-o
+            |  smile-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-soccer-ball-o
+            |  soccer-ball-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort
+            |  sort
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-alpha-asc
+            |  sort-alpha-asc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-alpha-desc
+            |  sort-alpha-desc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-amount-asc
+            |  sort-amount-asc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-amount-desc
+            |  sort-amount-desc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-asc
+            |  sort-asc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-desc
+            |  sort-desc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-down
+            |  sort-down 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-numeric-asc
+            |  sort-numeric-asc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-numeric-desc
+            |  sort-numeric-desc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sort-up
+            |  sort-up 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-space-shuttle
+            |  space-shuttle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-spinner
+            |  spinner
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-spoon
+            |  spoon
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-square
+            |  square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-square-o
+            |  square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star
+            |  star
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star-half
+            |  star-half
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star-half-empty
+            |  star-half-empty 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star-half-full
+            |  star-half-full 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star-half-o
+            |  star-half-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-star-o
+            |  star-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-street-view
+            |  street-view
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-suitcase
+            |  suitcase
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sun-o
+            |  sun-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-support
+            |  support 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tablet
+            |  tablet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tachometer
+            |  tachometer
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tag
+            |  tag
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tags
+            |  tags
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tasks
+            |  tasks
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-taxi
+            |  taxi
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-terminal
+            |  terminal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-thumb-tack
+            |  thumb-tack
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-thumbs-down
+            |  thumbs-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-thumbs-o-down
+            |  thumbs-o-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-thumbs-o-up
+            |  thumbs-o-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-thumbs-up
+            |  thumbs-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ticket
+            |  ticket
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-times
+            |  times
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-times-circle
+            |  times-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-times-circle-o
+            |  times-circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tint
+            |  tint
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-down
+            |  toggle-down 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-left
+            |  toggle-left 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-off
+            |  toggle-off
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-on
+            |  toggle-on
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-right
+            |  toggle-right 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-up
+            |  toggle-up 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-trash
+            |  trash
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-trash-o
+            |  trash-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tree
+            |  tree
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-trophy
+            |  trophy
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-truck
+            |  truck
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tty
+            |  tty
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-umbrella
+            |  umbrella
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-university
+            |  university
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-unlock
+            |  unlock
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-unlock-alt
+            |  unlock-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-unsorted
+            |  unsorted 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-upload
+            |  upload
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-user
+            |  user
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-user-plus
+            |  user-plus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-user-secret
+            |  user-secret
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-user-times
+            |  user-times
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-users
+            |  users
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-video-camera
+            |  video-camera
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-volume-down
+            |  volume-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-volume-off
+            |  volume-off
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-volume-up
+            |  volume-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-warning
+            |  warning 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wheelchair
+            |  wheelchair
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wifi
+            |  wifi
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wrench
+            |  wrench
+    section#transportation.mainParts
+      h2.page-header 运输
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ambulance
+            |  ambulance
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-automobile
+            |  automobile 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bicycle
+            |  bicycle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bus
+            |  bus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cab
+            |  cab 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-car
+            |  car
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fighter-jet
+            |  fighter-jet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-motorcycle
+            |  motorcycle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plane
+            |  plane
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rocket
+            |  rocket
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ship
+            |  ship
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-space-shuttle
+            |  space-shuttle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-subway
+            |  subway
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-taxi
+            |  taxi
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-train
+            |  train
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-truck
+            |  truck
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wheelchair
+            |  wheelchair
+    section#gender.mainParts
+      h2.page-header 性别
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-thin
+            |  circle-thin
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-genderless
+            |  genderless 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mars
+            |  mars
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mars-double
+            |  mars-double
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mars-stroke
+            |  mars-stroke
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mars-stroke-h
+            |  mars-stroke-h
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mars-stroke-v
+            |  mars-stroke-v
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-mercury
+            |  mercury
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-neuter
+            |  neuter
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-transgender
+            |  transgender
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-transgender-alt
+            |  transgender-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-venus
+            |  venus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-venus-double
+            |  venus-double
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-venus-mars
+            |  venus-mars
+    section#file-type.mainParts
+      h2.page-header 文件类型
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file
+            |  file
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-archive-o
+            |  file-archive-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-audio-o
+            |  file-audio-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-code-o
+            |  file-code-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-excel-o
+            |  file-excel-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-image-o
+            |  file-image-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-movie-o
+            |  file-movie-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-o
+            |  file-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-pdf-o
+            |  file-pdf-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-photo-o
+            |  file-photo-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-picture-o
+            |  file-picture-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-powerpoint-o
+            |  file-powerpoint-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-sound-o
+            |  file-sound-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-text
+            |  file-text
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-text-o
+            |  file-text-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-video-o
+            |  file-video-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-word-o
+            |  file-word-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-zip-o
+            |  file-zip-o 
+            span.text-muted (别名)
+    section#spinner.mainParts
+      h2.page-header 可旋转
+      .alert.alert-success
+        ul.fa-ul
+          li
+            i.fa.fa-info-circle.fa-lg.fa-li
+            |                 这些图标在
+            code fa-spin
+            | 类的作用下表现优异。您可以查阅
+            a.alert-link(href='#spinning') 可旋转图标案例
+            | .
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-o-notch
+            |  circle-o-notch
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cog
+            |  cog
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gear
+            |  gear 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-refresh
+            |  refresh
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-spinner
+            |  spinner
+    section#form-control.mainParts
+      h2.page-header 表单
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-square
+            |  check-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-check-square-o
+            |  check-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle
+            |  circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-circle-o
+            |  circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dot-circle-o
+            |  dot-circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus-square
+            |  minus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-minus-square-o
+            |  minus-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-square
+            |  plus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-square-o
+            |  plus-square-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-square
+            |  square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-square-o
+            |  square-o
+    section#payment.mainParts
+      h2.page-header 支付
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-amex
+            |  cc-amex
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-discover
+            |  cc-discover
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-mastercard
+            |  cc-mastercard
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-paypal
+            |  cc-paypal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-stripe
+            |  cc-stripe
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-visa
+            |  cc-visa
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-credit-card
+            |  credit-card
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-google-wallet
+            |  google-wallet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paypal
+            |  paypal
+    section#chart.mainParts
+      h2.page-header 图表
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-area-chart
+            |  area-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bar-chart
+            |  bar-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bar-chart-o
+            |  bar-chart-o 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-line-chart
+            |  line-chart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pie-chart
+            |  pie-chart
+    section#currency.mainParts
+      h2.page-header 货币
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bitcoin
+            |  bitcoin 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-btc
+            |  btc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cny
+            |  cny 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dollar
+            |  dollar 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eur
+            |  eur
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-euro
+            |  euro 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gbp
+            |  gbp
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ils
+            |  ils
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-inr
+            |  inr
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-jpy
+            |  jpy
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-krw
+            |  krw
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-money
+            |  money
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rmb
+            |  rmb 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rouble
+            |  rouble 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rub
+            |  rub
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ruble
+            |  ruble 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rupee
+            |  rupee 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-shekel
+            |  shekel 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sheqel
+            |  sheqel 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-try
+            |  try
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-turkish-lira
+            |  turkish-lira 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-usd
+            |  usd
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-won
+            |  won 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-yen
+            |  yen 
+            span.text-muted (别名)
+    section#text-editor.mainParts
+      h2.page-header 文本编辑
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-align-center
+            |  align-center
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-align-justify
+            |  align-justify
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-align-left
+            |  align-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-align-right
+            |  align-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bold
+            |  bold
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chain
+            |  chain 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chain-broken
+            |  chain-broken
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-clipboard
+            |  clipboard
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-columns
+            |  columns
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-copy
+            |  copy 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cut
+            |  cut 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dedent
+            |  dedent 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eraser
+            |  eraser
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file
+            |  file
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-o
+            |  file-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-text
+            |  file-text
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-file-text-o
+            |  file-text-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-files-o
+            |  files-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-floppy-o
+            |  floppy-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-font
+            |  font
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-header
+            |  header
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-indent
+            |  indent
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-italic
+            |  italic
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-link
+            |  link
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-list
+            |  list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-list-alt
+            |  list-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-list-ol
+            |  list-ol
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-list-ul
+            |  list-ul
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-outdent
+            |  outdent
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paperclip
+            |  paperclip
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paragraph
+            |  paragraph
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paste
+            |  paste 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-repeat
+            |  repeat
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rotate-left
+            |  rotate-left 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rotate-right
+            |  rotate-right 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-save
+            |  save 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-scissors
+            |  scissors
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-strikethrough
+            |  strikethrough
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-subscript
+            |  subscript
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-superscript
+            |  superscript
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-table
+            |  table
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-text-height
+            |  text-height
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-text-width
+            |  text-width
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-th
+            |  th
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-th-large
+            |  th-large
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-th-list
+            |  th-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-underline
+            |  underline
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-undo
+            |  undo
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-unlink
+            |  unlink 
+            span.text-muted (别名)
+    section#directional.mainParts
+      h2.page-header 指示方向
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-double-down
+            |  angle-double-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-double-left
+            |  angle-double-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-double-right
+            |  angle-double-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-double-up
+            |  angle-double-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-down
+            |  angle-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-left
+            |  angle-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-right
+            |  angle-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angle-up
+            |  angle-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-down
+            |  arrow-circle-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-left
+            |  arrow-circle-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-o-down
+            |  arrow-circle-o-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-o-left
+            |  arrow-circle-o-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-o-right
+            |  arrow-circle-o-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-o-up
+            |  arrow-circle-o-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-right
+            |  arrow-circle-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-circle-up
+            |  arrow-circle-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-down
+            |  arrow-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-left
+            |  arrow-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-right
+            |  arrow-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrow-up
+            |  arrow-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows
+            |  arrows
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-alt
+            |  arrows-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-h
+            |  arrows-h
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-v
+            |  arrows-v
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-down
+            |  caret-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-left
+            |  caret-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-right
+            |  caret-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-down
+            |  caret-square-o-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-left
+            |  caret-square-o-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-right
+            |  caret-square-o-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-square-o-up
+            |  caret-square-o-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-caret-up
+            |  caret-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-circle-down
+            |  chevron-circle-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-circle-left
+            |  chevron-circle-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-circle-right
+            |  chevron-circle-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-circle-up
+            |  chevron-circle-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-down
+            |  chevron-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-left
+            |  chevron-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-right
+            |  chevron-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-chevron-up
+            |  chevron-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hand-o-down
+            |  hand-o-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hand-o-left
+            |  hand-o-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hand-o-right
+            |  hand-o-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hand-o-up
+            |  hand-o-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-long-arrow-down
+            |  long-arrow-down
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-long-arrow-left
+            |  long-arrow-left
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-long-arrow-right
+            |  long-arrow-right
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-long-arrow-up
+            |  long-arrow-up
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-down
+            |  toggle-down 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-left
+            |  toggle-left 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-right
+            |  toggle-right 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-toggle-up
+            |  toggle-up 
+            span.text-muted (别名)
+    section#video-player.mainParts
+      h2.page-header 视频播放
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-arrows-alt
+            |  arrows-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-backward
+            |  backward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-compress
+            |  compress
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-eject
+            |  eject
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-expand
+            |  expand
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fast-backward
+            |  fast-backward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-fast-forward
+            |  fast-forward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-forward
+            |  forward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pause
+            |  pause
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-play
+            |  play
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-play-circle
+            |  play-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-play-circle-o
+            |  play-circle-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-step-backward
+            |  step-backward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-step-forward
+            |  step-forward
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stop
+            |  stop
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-youtube-play
+            |  youtube-play
+    section#brand.mainParts
+      h2.page-header 标志
+      .alert.alert-success
+        ul.margin-bottom-none.padding-left-lg
+          li 所有标志图标都分别是其所有者的注册商标。
+          li 使用这些商标并不代表Font Awesome拥有它们。
+      .alert.alert-warning
+        h4
+          i.fa.fa-warning
+          |  特别注意!
+        |     Adblock Plus 插件会通过设置“Remove Social Media Buttons”来移除 Font Awesome 的这些标志图标。
+        |     然而我们并不会用一些特殊方法来强行显示。如果您认为这是一个错误，请
+        a.alert-link(href='https://adblockplus.org/en/bugs', target='_blank') 向 Adblock Plus 报告这个问题
+        | 。
+        |     在Adblock Plus修复这个问题之前，您需要自行修改这些图标的类名来解决这个问题。
+      .row.fontawesome-icon-list.margin-bottom-lg
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-adn
+            |  adn
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-android
+            |  android
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-angellist
+            |  angellist
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-apple
+            |  apple
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-behance
+            |  behance
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-behance-square
+            |  behance-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bitbucket
+            |  bitbucket
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bitbucket-square
+            |  bitbucket-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-bitcoin
+            |  bitcoin 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-btc
+            |  btc
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-buysellads
+            |  buysellads
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-amex
+            |  cc-amex
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-discover
+            |  cc-discover
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-mastercard
+            |  cc-mastercard
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-paypal
+            |  cc-paypal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-stripe
+            |  cc-stripe
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-cc-visa
+            |  cc-visa
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-codepen
+            |  codepen
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-connectdevelop
+            |  connectdevelop
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-css3
+            |  css3
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dashcube
+            |  dashcube
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-delicious
+            |  delicious
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-deviantart
+            |  deviantart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-digg
+            |  digg
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dribbble
+            |  dribbble
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-dropbox
+            |  dropbox
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-drupal
+            |  drupal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-empire
+            |  empire
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-facebook
+            |  facebook
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-facebook-f
+            |  facebook-f 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-facebook-official
+            |  facebook-official
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-facebook-square
+            |  facebook-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-flickr
+            |  flickr
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-forumbee
+            |  forumbee
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-foursquare
+            |  foursquare
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ge
+            |  ge 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-git
+            |  git
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-git-square
+            |  git-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-github
+            |  github
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-github-alt
+            |  github-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-github-square
+            |  github-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gittip
+            |  gittip 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-google
+            |  google
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-google-plus
+            |  google-plus
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-google-plus-square
+            |  google-plus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-google-wallet
+            |  google-wallet
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-gratipay
+            |  gratipay
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hacker-news
+            |  hacker-news
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-html5
+            |  html5
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-instagram
+            |  instagram
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ioxhost
+            |  ioxhost
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-joomla
+            |  joomla
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-jsfiddle
+            |  jsfiddle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-lastfm
+            |  lastfm
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-lastfm-square
+            |  lastfm-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-leanpub
+            |  leanpub
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-linkedin
+            |  linkedin
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-linkedin-square
+            |  linkedin-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-linux
+            |  linux
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-maxcdn
+            |  maxcdn
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-meanpath
+            |  meanpath
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-medium
+            |  medium
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-openid
+            |  openid
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pagelines
+            |  pagelines
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-paypal
+            |  paypal
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pied-piper
+            |  pied-piper
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pied-piper-alt
+            |  pied-piper-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pinterest
+            |  pinterest
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pinterest-p
+            |  pinterest-p
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-pinterest-square
+            |  pinterest-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-qq
+            |  qq
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ra
+            |  ra 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-rebel
+            |  rebel
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-reddit
+            |  reddit
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-reddit-square
+            |  reddit-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-renren
+            |  renren
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-sellsy
+            |  sellsy
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-alt
+            |  share-alt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-share-alt-square
+            |  share-alt-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-shirtsinbulk
+            |  shirtsinbulk
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-simplybuilt
+            |  simplybuilt
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-skyatlas
+            |  skyatlas
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-skype
+            |  skype
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-slack
+            |  slack
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-slideshare
+            |  slideshare
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-soundcloud
+            |  soundcloud
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-spotify
+            |  spotify
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stack-exchange
+            |  stack-exchange
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stack-overflow
+            |  stack-overflow
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-steam
+            |  steam
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-steam-square
+            |  steam-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stumbleupon
+            |  stumbleupon
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stumbleupon-circle
+            |  stumbleupon-circle
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tencent-weibo
+            |  tencent-weibo
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-trello
+            |  trello
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tumblr
+            |  tumblr
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-tumblr-square
+            |  tumblr-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-twitch
+            |  twitch
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-twitter
+            |  twitter
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-twitter-square
+            |  twitter-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-viacoin
+            |  viacoin
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-vimeo-square
+            |  vimeo-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-vine
+            |  vine
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-vk
+            |  vk
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wechat
+            |  wechat 
+            span.text-muted (别名)
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-weibo
+            |  weibo
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-weixin
+            |  weixin
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-whatsapp
+            |  whatsapp
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-windows
+            |  windows
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wordpress
+            |  wordpress
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-xing
+            |  xing
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-xing-square
+            |  xing-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-yahoo
+            |  yahoo
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-yelp
+            |  yelp
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-youtube
+            |  youtube
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-youtube-play
+            |  youtube-play
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-youtube-square
+            |  youtube-square
+    section#medical.mainParts
+      h2.page-header 医疗
+      .row.fontawesome-icon-list
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-ambulance
+            |  ambulance
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-h-square
+            |  h-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heart
+            |  heart
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heart-o
+            |  heart-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-heartbeat
+            |  heartbeat
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-hospital-o
+            |  hospital-o
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-medkit
+            |  medkit
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-plus-square
+            |  plus-square
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-stethoscope
+            |  stethoscope
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-user-md
+            |  user-md
+        .fa-hover.col-md-3.col-sm-4
+          a
+            i.fa.fa-wheelchair
+            |  wheelchair

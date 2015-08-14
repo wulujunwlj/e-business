@@ -24,11 +24,14 @@ router.get('/', function(req, res) {
 });
 
 router.get('/aaa', function(req, res) {
-	var currentPage = req.params('page');
-	console.log(currentPage);
+	
 
-	res.send({'username': 'abc'});
-})
+	res.sendfile('../../../public/aaa.html');
+});
+
+router.get('/fontAwesome', function(req, res) {
+	res.render('projects/front-end-navigation/font-awesome');
+});
 
 module.exports = router;
 
