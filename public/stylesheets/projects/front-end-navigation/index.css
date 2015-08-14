@@ -1,0 +1,50 @@
+/**
+ * add by wlj @20150814
+ */
+
+.block-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #118A44;
+	width: 100%;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+}
+
+.block-title a, .block-title a:active, .block-title a:visited {
+	color: #118A44;
+}
+
+.block-content {
+
+}
+
+.block-item {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #F4F0F0;
+  box-shadow: 5px 5px 2px #DBD8D8;
+}
+
+.block-item:hover {
+
+}
+
+.block-item .block-item-name {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px;
+	color: #000;
+}
+.block-item-keywords span {
+	background-color: #76B0E8;
+	color: #fff;
+	display: inline-block;
+	min-width: 25px;
+	padding: 3px 6px;
+	border-radius: 2px;
+	margin: 0 2px;
+}

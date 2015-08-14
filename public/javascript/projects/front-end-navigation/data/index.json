@@ -45,7 +45,8 @@
 	],
 	"JS": [
 		{
-			"name": ""
+			"name": "",
+			"keywords": []
 		}
 	],
 	"HTML": [
@@ -68,8 +69,6 @@
 			]
 	 }
 	],
-	"UI": [],
-	"UE": [],
 	"tools": [
 		{ 
 			"name": "versioneye",

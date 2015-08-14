@@ -1,15 +1,20 @@
 extends layout
 
 block content
-	h1 index
-	p #{title}
-	//- pre #{list}
-
-	div
-		- each obj in list
-			ul=obj
-				- each item in obj
-					li= item.name
+	div.main
+		- each value, key in list
+			div.block-title
+				a(href="#")= key
+			//- hr.split-line
+			ul.block-content.list-unstyled
+				- each item in value
+					a(href="#{item.url}", target="_blank")
+						li.inline
+							div.block-item
+								div.block-item-name= item.name
+								div.block-item-keywords
+									- each label in item.keywords
+										span #{label}
 
 	//- include footer.jade
 	//- http://www.html-js.com/article/column/809
