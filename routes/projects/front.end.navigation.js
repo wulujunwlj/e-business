@@ -23,6 +23,20 @@ router.get('/', function(req, res) {
 
 });
 
+router.get('/more', function(req, res) {
+	console.log(req.params);
+
+	fs.readFile(__dirname + '../../../public/javascript/projects/front-end-navigation/data/index.json', 
+		function(err, data) {
+			if(err) throw err;
+
+			res.render('projects/front-end-navigation/front-end', {
+				title: 'front-end',
+				list: JSON.parse(data)['front-end']
+			});
+		});
+});
+
 router.get('/aaa', function(req, res) {
 	
 

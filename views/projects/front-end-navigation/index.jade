@@ -4,12 +4,12 @@ block content
 	div.main
 		- each value, key in list
 			div.block-title
-				a(href="#").text-1x_5= key
-				i.fa.fa-angle-up.f-r.text-1x_5
+				a(href="#", title="#{key}").text-1x_5= key
+				i.fa.fa-angle-up.f-r.text-1x_5.expand-icon
 			//- hr.split-line
 			ul.block-content.list-unstyled
 				- each item in value
-					a(href="#{item.url}", target="_blank")
+					a(href="#{item.url}", target="_blank", title="#{item.url}")
 						li.inline
 							div.block-item
 								div.block-item-name= item.name

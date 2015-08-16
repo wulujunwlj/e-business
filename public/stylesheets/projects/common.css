@@ -35,3 +35,6 @@ ul.list-unstyled {
 .text-1x_5 {
 	font-size: 1.5em;
 }
+.hidden {
+	display: none;
+}
