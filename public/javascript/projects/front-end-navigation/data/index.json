@@ -152,5 +152,16 @@
 				"source-code"
 			]
 		}
+	], 
+	"blog": [
+		{
+			"name": "前端路上的旅行",
+			"url": "http://www.w3cplus.com/front-end-trip-on-road.html",
+			"keywords": [
+				"front-end", 
+				"职业发展",
+				"前端方向"
+			]
+		}
 	]
 }
